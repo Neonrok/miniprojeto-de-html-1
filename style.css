@@ -1,0 +1,57 @@
+@keyframes aumento{
+    from{scale: 100%;}
+    to{scale: 110%;}
+}
+
+
+
+body{
+    background-color: #ccffff;
+    margin: 0%;
+}
+
+.topo{
+    background-color: #929292;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    float: top;
+    position: sticky;
+    top: 0px;
+}
+
+.logotipo{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+.nomedabiblioteca{
+    color: black;
+
+}
+
+.estante{
+    margin: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bordas{
+    border: 7px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1%;
+}
+.display_livro{
+    height: 300px;
+    width: auto;
+}
+
+
+
+
+.bordas :hover{
+    animation: aumento 1s linear 0.1s 1;
+
+}
