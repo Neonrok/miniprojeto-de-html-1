@@ -29,8 +29,7 @@ body{
     margin-right: 3%;
 }
 .nomedabiblioteca{
-    
-
+    font-size: bold;
 }
 
 .estante{
@@ -40,7 +39,7 @@ body{
     flex-wrap: wrap;
 }
 .bordas{
-    background-color: #9CA3DB;
+    background-color: #fff;
     border: 7px solid #d6d6d6;
     box-shadow: 5px 5px 30px 5px #28536b;
     border-radius: 5px;
