@@ -1,33 +1,35 @@
-@keyframes aumento{
-    from{scale: 100%;}
-    to{scale: 110%;}
-}
+@import url(./stylesheet.css);
 
 
 
 body{
     background-color: #ccffff;
     margin: 0%;
+    font-family: 'Satoshi';
+    padding-top: 30px;
 }
 
 .topo{
-    background-color: #929292;
+    background-color: #28536b;
+    color: #ccffff;
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
-    float: top;
-    position: sticky;
+    position: fixed;
     top: 0px;
+    width: 100%;
+    z-index: 999;
 }
 
 .logotipo{
     height: 50px;
     width: auto;
     border-radius: 50%;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 3%;
 }
 .nomedabiblioteca{
-    color: black;
+    
 
 }
 
@@ -38,11 +40,15 @@ body{
     flex-wrap: wrap;
 }
 .bordas{
+    background-color: #9CA3DB;
     border: 7px solid #d6d6d6;
+    box-shadow: 5px 5px 30px 5px #28536b;
     border-radius: 5px;
     padding: 5px;
     margin: 1%;
+    transition: all 0.3s ease;
 }
+
 .display_livro{
     height: 300px;
     width: auto;
@@ -50,8 +56,7 @@ body{
 
 
 
-
-.bordas :hover{
-    animation: aumento 1s linear 0.1s 1;
+.bordas:hover{
+    transform: scale(1.05);
 
 }
