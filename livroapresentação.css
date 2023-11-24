@@ -1,0 +1,55 @@
+body{
+    background-color: #ccffff;
+    margin: 0%;
+    font-family: 'Satoshi';
+    padding-top: 30px;
+}
+
+.topo{
+    background-color: #28536b;
+    color: #ccffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.linha{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 3%;
+}
+.logotipo{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.nomedabiblioteca{
+    font-size: bold;
+}
+.voltar{
+    margin-left: 25px;
+}
+
+
+.display{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.apresentação_imagem{
+    width: 30%;
+    height: auto;
+    margin: 3%;
+    border-radius: 12px;
+}
+.infos{
+    width: 50%;
+    height: auto;
+}
