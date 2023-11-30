@@ -47,7 +47,7 @@ body{
     justify-content: center;
 }
 
-.bordas{
+.Ilustração{
     background-color: #fff;
     border: 7px solid #d6d6d6;
     box-shadow: 5px 5px 30px 5px #28536b;
@@ -76,7 +76,7 @@ a{
     font-weight:lighter;
 }
 
-.bordas:hover{
+.Ilustração:hover{
     transform: scale(1.05);
 
 }
