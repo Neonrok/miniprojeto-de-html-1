@@ -92,7 +92,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 950px){
     .tridivisão{
         display: grid;
         grid-template-columns: 1fr;
