@@ -90,5 +90,35 @@ body{
 }
 .tridivisão{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+@media screen and (max-width: 750px){
+    .tridivisão{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .apresentação{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 30px 5px #28536b;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    display: flex;
+    }
+    .infos{
+        background-color: #ffffff;
+        box-shadow: 5px 5px 30px 5px #28536b;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-right: 20px;
+        padding-bottom: 33px;
+    }
+
+}
+    
